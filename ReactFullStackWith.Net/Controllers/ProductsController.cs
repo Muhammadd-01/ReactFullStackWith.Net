@@ -7,5 +7,11 @@ namespace ReactFullStackWith.Net.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult GetProducts()
+        {
+            var products = new List<string> { "Laptop", "Mobile", "Tablet" };
+            return Ok(products);
+        }
     }
 }
