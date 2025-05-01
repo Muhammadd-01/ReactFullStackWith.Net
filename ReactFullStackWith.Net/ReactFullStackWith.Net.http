@@ -1,0 +1,6 @@
+@ReactFullStackWith.Net_HostAddress = http://localhost:5138
+
+GET {{ReactFullStackWith.Net_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
