@@ -10,7 +10,7 @@ namespace ReactFullStackWith.Net.Controllers
         [HttpGet]
         public IActionResult GetProducts()
         {
-            var products = new List<string> { "Laptop", "Mobile", "Tablet" };
+            var products = new List<string> { "Laptop", "Mobile", "Tablet" , "Desktop" };
             return Ok(products);
         }
     }
